@@ -30,9 +30,6 @@ Naive Matches: 1 | Time: 47 μs
 KMP Matches: 1 | Time: 19 μs
 Rabin-Karp: 1 | Time: 25 μs
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -66,3 +63,4 @@ Uses a **rolling hash** function to find potential matches quickly.
 ```bash
 g++ -std=c++11 main.cpp -o pattern-search
 ./pattern-search
+```
